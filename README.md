@@ -55,6 +55,7 @@ jupyter lab notebooks/
 | `13_resource_search_agent.py` | **Learning-resource search agent**: answers "how do I learn X" questions, citing real titles + URLs from the Firestore resource library |
 | `14_flight_booking_agent.py` | **Tool parameters**: how type hints/docstrings become a required-field JSON schema, and how that forces the model to ask instead of guessing |
 | `15_flight_booking_flow.py` | **Flow agent**: the same book_flight tool, but with the step sequence (extract → validate → book → confirm) fixed in code instead of decided by the model |
+| `16_generate_content_internals.py` | **Is it one LLM call or a loop?**: proves, with an instrumented tool function, when `generate_content` is exactly one round trip vs. when the SDK loops multiple calls for you |
 
 Each `.py` file above has a matching notebook in `notebooks/`.
 
