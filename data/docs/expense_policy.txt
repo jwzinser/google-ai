@@ -1,0 +1,7 @@
+Expense Reimbursement Policy
+
+Employees may expense meals up to $50/day while traveling for business, and must submit
+receipts for any single expense over $25. Reimbursement requests must be filed within 60 days
+of the expense date. Alcohol is only reimbursable when part of a client meal, capped at $30
+per person. Personal entertainment, gym memberships, and first-class flight upgrades are not
+reimbursable.

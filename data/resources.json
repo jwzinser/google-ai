@@ -1,0 +1,194 @@
+[
+  {
+    "id": "anthropic-building-effective-agents",
+    "title": "Building Effective Agents",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "topic": "agents",
+    "type": "guide",
+    "summary": "Anthropic's practical framework for agent design: five composable workflow patterns (prompt chaining, routing, parallelization, orchestrator-workers, evaluator-optimizer), and clear guidance on when a workflow beats a full agent."
+  },
+  {
+    "id": "google-adk-docs",
+    "title": "Agent Development Kit (ADK) documentation",
+    "url": "https://google.github.io/adk-docs/",
+    "topic": "agent-toolkit",
+    "type": "docs",
+    "summary": "Google's open-source, code-first toolkit (Python/Java/Go/TypeScript) for building, evaluating, and deploying multi-agent applications; model-agnostic but optimized for Gemini."
+  },
+  {
+    "id": "google-adk-announcement",
+    "title": "Agent Development Kit: making it easy to build multi-agent applications",
+    "url": "https://developers.googleblog.com/en/agent-development-kit-easy-to-build-multi-agent-applications/",
+    "topic": "agent-toolkit",
+    "type": "blog",
+    "summary": "Google Developers Blog announcement introducing ADK, its design goals, and how Agent/Workflow classes compose into multi-agent systems."
+  },
+  {
+    "id": "langgraph-overview",
+    "title": "LangGraph overview",
+    "url": "https://docs.langchain.com/oss/python/langgraph/overview",
+    "topic": "agent-toolkit",
+    "type": "docs",
+    "summary": "LangChain's low-level orchestration framework for long-running, stateful agents, modeled as graphs of shared state, nodes, and edges."
+  },
+  {
+    "id": "crewai-introduction",
+    "title": "CrewAI — Introduction",
+    "url": "https://docs.crewai.com/en/introduction",
+    "topic": "agent-toolkit",
+    "type": "docs",
+    "summary": "Role-based multi-agent orchestration framework: Crews (collaborative agents with roles/goals) combined with Flows (precise, event-driven control)."
+  },
+  {
+    "id": "mcp-intro",
+    "title": "What is the Model Context Protocol (MCP)?",
+    "url": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro",
+    "topic": "agent-toolkit",
+    "type": "docs",
+    "summary": "The open standard (\"USB-C for AI\") that lets agents connect to external tools, data sources, and workflows through a common client/server protocol."
+  },
+  {
+    "id": "mcp-announcement",
+    "title": "Introducing the Model Context Protocol",
+    "url": "https://www.anthropic.com/news/model-context-protocol",
+    "topic": "agent-toolkit",
+    "type": "blog",
+    "summary": "Anthropic's original announcement of MCP and the problem it solves: standardizing how applications provide context to LLMs and agents."
+  },
+  {
+    "id": "claude-prompting-best-practices",
+    "title": "Prompting best practices",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+    "topic": "llm-fundamentals",
+    "type": "docs",
+    "summary": "The living reference for prompt engineering with Claude: clarity, examples, XML structuring, chain-of-thought, and agentic prompting techniques."
+  },
+  {
+    "id": "google-ml-crash-course-llm",
+    "title": "Introduction to Large Language Models",
+    "url": "https://developers.google.com/machine-learning/crash-course/llm",
+    "topic": "llm-fundamentals",
+    "type": "course",
+    "summary": "Google's free crash-course module on LLM fundamentals: tokens, n-grams, Transformers, self-attention, fine-tuning, and known failure modes."
+  },
+  {
+    "id": "rag-original-paper",
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks (Lewis et al., 2020)",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "topic": "rag",
+    "type": "paper",
+    "summary": "The original RAG paper: a generator model conditioned on passages fetched by a learned retriever, beating purely parametric models on open-domain QA. arXiv:2005.11401."
+  },
+  {
+    "id": "pinecone-rag-learn",
+    "title": "Retrieval-Augmented Generation (RAG) — Pinecone Learning Center",
+    "url": "https://www.pinecone.io/learn/retrieval-augmented-generation/",
+    "topic": "rag",
+    "type": "guide",
+    "summary": "Practical explainer of the RAG architecture pattern: retriever + vector database + generator, and why it reduces hallucination versus pure parametric recall."
+  },
+  {
+    "id": "pinecone-rag-series",
+    "title": "Retrieval Augmented Generation — Pinecone learning series",
+    "url": "https://www.pinecone.io/learn/series/rag/",
+    "topic": "rag",
+    "type": "guide",
+    "summary": "A multi-part series covering advanced RAG techniques: two-stage retrieval with reranking, hybrid search, multi-query retrieval."
+  },
+  {
+    "id": "attention-is-all-you-need",
+    "title": "Attention Is All You Need (Vaswani et al., 2017)",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "topic": "llm-fundamentals",
+    "type": "paper",
+    "summary": "The paper that introduced the Transformer architecture, based entirely on attention and dropping recurrence/convolution — the foundation every modern LLM is built on. arXiv:1706.03762."
+  },
+  {
+    "id": "illustrated-transformer",
+    "title": "The Illustrated Transformer",
+    "url": "https://jalammar.github.io/illustrated-transformer/",
+    "topic": "llm-fundamentals",
+    "type": "guide",
+    "summary": "Jay Alammar's diagram-led walkthrough of self-attention, multi-head attention, positional encoding, and the encoder/decoder stack — the standard first read for understanding how Transformers actually work."
+  },
+  {
+    "id": "huggingface-nlp-course",
+    "title": "Hugging Face LLM Course",
+    "url": "https://huggingface.co/learn/llm-course/en/chapter1/1",
+    "topic": "llm-fundamentals",
+    "type": "course",
+    "summary": "Free, hands-on course on the Hugging Face ecosystem (Transformers, Datasets, Tokenizers): how Transformer models work, fine-tuning, and sharing results on the Hub."
+  },
+  {
+    "id": "stanford-cs224n",
+    "title": "CS224N: Natural Language Processing with Deep Learning",
+    "url": "https://web.stanford.edu/class/cs224n/",
+    "topic": "llm-fundamentals",
+    "type": "course",
+    "summary": "Stanford's graduate NLP course: word vectors, neural network models for language, and the latest LLM research, with public lecture videos and assignments."
+  },
+  {
+    "id": "deeplearning-ai-rag-course",
+    "title": "Retrieval Augmented Generation (short course)",
+    "url": "https://www.deeplearning.ai/courses/retrieval-augmented-generation/",
+    "topic": "rag",
+    "type": "course",
+    "summary": "DeepLearning.AI short course covering basic to advanced (agentic) RAG techniques, with hands-on notebooks."
+  },
+  {
+    "id": "deeplearning-ai-agents-langgraph",
+    "title": "AI Agents in LangGraph (short course)",
+    "url": "https://www.deeplearning.ai/courses/ai-agents-in-langgraph",
+    "topic": "agent-toolkit",
+    "type": "course",
+    "summary": "DeepLearning.AI short course, taught with LangChain's founder, on building single- and multi-agent LLM applications with LangGraph."
+  },
+  {
+    "id": "vertex-get-text-embeddings",
+    "title": "Get text embeddings",
+    "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/embeddings/get-text-embeddings",
+    "topic": "embeddings",
+    "type": "docs",
+    "summary": "Vertex AI reference for generating text embeddings via the API/SDK, including available embedding models and output vector dimensions."
+  },
+  {
+    "id": "vertex-embeddings-task-types",
+    "title": "Choose an embeddings task type",
+    "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/embeddings/task-types",
+    "topic": "embeddings",
+    "type": "docs",
+    "summary": "How to pick RETRIEVAL_DOCUMENT vs RETRIEVAL_QUERY vs SEMANTIC_SIMILARITY task types so Gemini's embedding model optimizes the vector space for your use case."
+  },
+  {
+    "id": "vertex-vector-search-overview",
+    "title": "Vector Search overview",
+    "url": "https://docs.cloud.google.com/vertex-ai/docs/vector-search/overview",
+    "topic": "search",
+    "type": "docs",
+    "summary": "Vertex AI's fully-managed vector database built on the ScaNN approximate-nearest-neighbor algorithm, for semantic search and recommendations at scale."
+  },
+  {
+    "id": "vertex-search-builder-apis",
+    "title": "Vertex AI APIs for building search and RAG experiences",
+    "url": "https://docs.cloud.google.com/generative-ai-app-builder/docs/builder-apis",
+    "topic": "search",
+    "type": "docs",
+    "summary": "The Agent Search/App Builder APIs for building enterprise search and RAG applications on top of your own data stores."
+  },
+  {
+    "id": "gemini-enterprise-apps-data-stores",
+    "title": "About apps and data stores",
+    "url": "https://docs.cloud.google.com/gemini/enterprise/docs/apps-data-stores",
+    "topic": "enterprise-search",
+    "type": "docs",
+    "summary": "How Gemini Enterprise's data stores and connectors (SharePoint, Jira, Confluence, ServiceNow, etc.) ingest or federate company data for grounded search."
+  },
+  {
+    "id": "gemini-enterprise-grounding",
+    "title": "Grounding with Agent Search",
+    "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/grounding/grounding-with-vertex-ai-search",
+    "topic": "search",
+    "type": "docs",
+    "summary": "How to ground Gemini responses in a Vertex AI Search data store so enterprise answers come with citations back to source documents."
+  }
+]
